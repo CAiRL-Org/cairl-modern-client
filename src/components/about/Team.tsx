@@ -78,12 +78,7 @@ const Team = () => {
                 image:
                   "https://res.cloudinary.com/dnyouhvwj/image/upload/v1750245469/Mr._Ram_Katamaraja_tj5jfe.png",
               },
-              {
-                name: "Mr. Sarvesh Singh",
-                role: "Director General",
-                image:
-                  "https://res.cloudinary.com/dnyouhvwj/image/upload/v1750245472/Mr._Sarvesh_Singh_rnmoam.png",
-              },
+              
             ]}
           />
         </div>
