@@ -21,6 +21,18 @@ const Header: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const original = document.body.style.overflow;
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = original || "";
+    }
+    return () => {
+      document.body.style.overflow = original || "";
+    };
+  }, [isMobileMenuOpen]);
+
   const handleMouseEnter = (dropdownName: string) => {
     setActiveDropdown(dropdownName);
   };
@@ -130,7 +142,6 @@ const Header: React.FC = () => {
         activeDropdown={activeDropdown}
         onDropdownToggle={handleDropdownToggle}
         onClose={closeAllDropdowns}
-        isScrolled={isScrolled}
       />
     </header>
   );
