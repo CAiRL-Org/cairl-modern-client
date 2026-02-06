@@ -13,8 +13,10 @@ const MobileDropdown: React.FC<MobileDropdownProps> = ({ title, isOpen, onToggle
   return (
     <div className="border-b border-border/50">
       <button
+        type="button"
         onClick={onToggle}
-        className="flex items-center justify-between w-full py-4 text-left text-lg font-medium text-foreground transition-colors duration-300 hover:text-primary"
+        aria-expanded={isOpen}
+        className="flex items-center justify-between w-full py-4 text-left text-lg font-medium text-foreground transition-colors duration-200 hover:text-primary"
       >
         <span>{title}</span>
         {isOpen ? (
@@ -29,7 +31,7 @@ const MobileDropdown: React.FC<MobileDropdownProps> = ({ title, isOpen, onToggle
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
             className="overflow-hidden"
           >
             <div className="pt-2 pb-4 pl-4 pr-2 flex flex-col items-start">

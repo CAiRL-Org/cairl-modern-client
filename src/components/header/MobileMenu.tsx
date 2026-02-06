@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { X } from "lucide-react";
 import MobileDropdown from "./MobileDropdown";
 import type { MobileMenuProps } from "../../types/header";
 import { navigationData } from "../../constants/navigation";
@@ -10,26 +11,34 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
   activeDropdown,
   onDropdownToggle,
   onClose,
-  isScrolled,
 }) => {
   const handleToggle = (dropdownName: string) => {
     onDropdownToggle(activeDropdown === dropdownName ? "" : dropdownName);
   };
 
-  if (!isOpen) return null;
 
   return (
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.3, ease: "easeInOut" }}
-          className={`fixed inset-0 z-20 ${isScrolled ? 'bg-secondary/70 shadow-md backdrop-blur-sm' : 'bg-transparent'}`}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: 0.2, ease: "easeOut" }}
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-50 bg-background text-foreground shadow-lg"
         >
-          <div className="pt-20 pb-8 px-6 h-[calc(100vh-80px)] overflow-y-auto">
-            <nav className="flex flex-col space-y-2">
+          <button
+            type="button"
+            onClick={onClose}
+            className="absolute top-6 right-6 inline-flex items-center justify-center rounded-md p-2 text-foreground/80 hover:text-primary hover:bg-secondary/50 focus:outline-none focus:ring-2 focus:ring-primary/40"
+            aria-label="Close menu"
+          >
+            <X className="h-6 w-6" />
+          </button>
+          <div className="pt-20 pb-8 px-6 h-[calc(100dvh-80px)] overflow-y-auto">
+            <nav className="flex flex-col space-y-2" aria-label="Mobile navigation">
               {navigationData.map((item) => (
                 <MobileDropdown
                   key={item.label}
