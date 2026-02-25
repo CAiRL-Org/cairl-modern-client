@@ -149,7 +149,7 @@ const FocusGroups = () => {
               <img
                 src="https://res.cloudinary.com/dnyouhvwj/image/upload/v1750554814/focus-group-img-1_ku3uqw.png"
                 alt="AI adoption"
-                className="rounded-xl shadow-lg w-full h-full m-w-[350px] m-h-[350px] object-cover"
+                className="rounded-xl shadow-lg w-full h-full max-w-[350px] max-h-[350px] object-cover"
               />
             </div>
           </section>
@@ -176,7 +176,7 @@ const FocusGroups = () => {
                 <img
                   src="https://res.cloudinary.com/dnyouhvwj/image/upload/v1750554814/focus-group-img-2_jla6ub.png"
                   alt="Capacity Building"
-                  className="rounded-xl shadow-lg w-full h-full m-w-[350px] m-h-[350px] object-cover"
+                  className="rounded-xl shadow-lg w-full h-full max-w-[350px] max-h-[350px] object-cover"
                 />
               </div>
 
@@ -339,7 +339,7 @@ const FocusGroups = () => {
                 <img
                   src="https://res.cloudinary.com/dnyouhvwj/image/upload/v1750554814/focus-group-img-3_cnirid.png"
                   alt="Partner With CAiRL"
-                  className="rounded-xl shadow-lg w-full h-full m-w-[350px] m-h-[350px] object-cover"
+                  className="rounded-xl shadow-lg w-full h-full max-w-[350px] max-h-[350px] object-cover"
                 />
               </div>
             </section>

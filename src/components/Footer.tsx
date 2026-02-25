@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      to="/about-us#team"
+                      to="/about-us#board-members"
                       className="text-foreground/80 hover:text-foreground relative group"
                     >
                       <span>Our Team</span>
@@ -230,8 +230,8 @@ const Footer: React.FC = () => {
         {/* Footer Bottom */}
         <div className="mt-12 pt-6 flex flex-col md:flex-row justify-center items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            © 2024 Collaborative AI Research Labs Foundation. All rights
-            reserved.
+            © {new Date().getFullYear()} Collaborative AI Research Labs
+            Foundation. All rights reserved.
           </p>
         </div>
 

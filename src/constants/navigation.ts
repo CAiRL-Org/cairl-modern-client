@@ -16,7 +16,7 @@ import FocusGroupsDropdown from "../components/header/FocusGroupsDropdown";
 import ResourcesDropdown from "../components/header/ResourcesDropdown";
 
 export const aboutUs = {
-  label: "About us",
+  label: "About Us",
   route: "/about-us",
   component: AboutDropdown,
   links: [
@@ -73,7 +73,7 @@ export const services = {
           href: "/services#knowledge-empowerment",
         },
         {
-          name: "AI Tech Conference & Summits",
+          name: "AI Tech Conferences & Summits",
           href: "/services#knowledge-empowerment",
         },
       ],
@@ -201,7 +201,7 @@ export const resources = {
       links: [
         { name: "Blog", href: "/blogs", icon: Book },
         { name: "Podcast", href: "/podcasts", icon: Mic },
-        { name: "Whitepaper", href: "/white-papers", icon: FileText },
+        { name: "White Paper", href: "/white-papers", icon: FileText },
       ],
     },
     {
@@ -214,7 +214,7 @@ export const resources = {
         },
         {
           name: "Affordable AI Computing",
-          href: "/resources#computing",
+          href: "/resources#affordable-ai-computing",
           icon: Cpu,
         },
       ],

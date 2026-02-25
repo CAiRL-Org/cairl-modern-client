@@ -423,7 +423,7 @@ const Bootcamps = () => {
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {/* Card 1 */}
-              <div className="bg-card border border-bg-foreground rounded-lg shadow-sm overflow-hidden">
+              <div className="bg-card border border-border rounded-lg shadow-sm overflow-hidden">
                 <div className="relative aspect-video bg-foreground/20 flex items-center justify-center">
                   {/* Play Button Placeholder */}
                   <div className="w-12 h-12 bg-card rounded-full flex items-center justify-center shadow-md">
@@ -447,7 +447,7 @@ const Bootcamps = () => {
               </div>
 
               {/* Card 2 */}
-              <div className="bg-card border border-bg-foreground rounded-lg shadow-sm overflow-hidden">
+              <div className="bg-card border border-border rounded-lg shadow-sm overflow-hidden">
                 <div className="relative aspect-video bg-foreground/20 flex items-center justify-center">
                   <div className="w-12 h-12 bg-card rounded-full flex items-center justify-center shadow-md">
                     <svg
@@ -470,7 +470,7 @@ const Bootcamps = () => {
               </div>
 
               {/* Card 3 */}
-              <div className="bg-card border border-bg-foreground rounded-lg shadow-sm overflow-hidden">
+              <div className="bg-card border border-border rounded-lg shadow-sm overflow-hidden">
                 <div className="relative aspect-video bg-foreground/20 flex items-center justify-center">
                   <div className="w-12 h-12 bg-card rounded-full flex items-center justify-center shadow-md">
                     <svg

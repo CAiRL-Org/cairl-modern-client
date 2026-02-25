@@ -65,7 +65,7 @@ const ResearchAndInnovation = () => {
       reverse: false,
     },
     {
-      id: "patnerships",
+      id: "partnerships",
       title: "AI Ecosystem Building & Partnerships",
       description:
         "AI progress thrives on collaboration. CAiRL bridges the gap between:",
