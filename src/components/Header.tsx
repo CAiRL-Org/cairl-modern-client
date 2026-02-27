@@ -82,7 +82,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             {navigationData.map((item) => (
               <div
                 key={item.label}
@@ -104,7 +104,7 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Contact & CTA - Desktop */}
-          <div className="hidden md:flex items-center space-x-4 cursor-pointer">
+          <div className="hidden lg:flex items-center space-x-4 cursor-pointer">
             <Link
               to="/engage-with-us"
               className={`px-4 py-3 rounded-md font-semibold transition-all duration-300 shadow-lg hover:shadow-xl whitespace-nowrap ${
@@ -121,9 +121,12 @@ const Header: React.FC = () => {
           {/* Mobile menu button */}
           <div className="lg:hidden z-40">
             <button
+              type="button"
               onClick={toggleMobileMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-foreground/70 hover:text-primary hover:bg-secondary focus:outline-none transition-colors duration-300"
+              aria-controls="mobile-nav-dialog"
               aria-expanded={isMobileMenuOpen}
+              aria-label={isMobileMenuOpen ? "Close main menu" : "Open main menu"}
             >
               <span className="sr-only">Open main menu</span>
               {isMobileMenuOpen ? (

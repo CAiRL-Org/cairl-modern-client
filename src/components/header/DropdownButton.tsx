@@ -45,7 +45,7 @@ const DropdownButton: React.FC<DropdownButtonProps> = ({
 
   // Common class names
   const commonClassNames = `flex items-center text-base font-medium transition-all duration-300 ${
-    isActive ? "text-ai-blue-dark" : "text-ai-gray-dark hover:text-ai-blue-dark"
+    isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
   }`;
 
   // Common hover handlers
@@ -59,14 +59,19 @@ const DropdownButton: React.FC<DropdownButtonProps> = ({
       className={commonClassNames}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      aria-expanded={isActive}
+      aria-haspopup="menu"
     >
       {content}
     </Link>
   ) : (
     <button
+      type="button"
       className={commonClassNames}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      aria-expanded={isActive}
+      aria-haspopup="menu"
     >
       {content}
     </button>

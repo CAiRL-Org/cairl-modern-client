@@ -25,8 +25,10 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.2, ease: "easeOut" }}
+          id="mobile-nav-dialog"
           role="dialog"
           aria-modal="true"
+          aria-label="Mobile navigation"
           className="fixed inset-0 z-50 bg-background text-foreground shadow-lg"
         >
           <button
@@ -67,11 +69,11 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 
             <div className="border-t border-border/50 pt-6 mt-6">
               <Link
-                to="/contact-us"
+                to="/engage-with-us#get-in-touch"
                 className="block py-3 text-lg font-medium text-foreground hover:text-primary transition-colors"
                 onClick={onClose}
               >
-                Contact
+                Contact Us
               </Link>
               <Link
                 to="/engage-with-us"

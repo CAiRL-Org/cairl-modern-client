@@ -174,7 +174,7 @@ const Hero: React.FC = () => {
                       </motion.h2>
                     </div>
                     <motion.p
-                      className="font-sans text-lg sm:text-xl md:text-xl text-lightText-secondary max-w-xs sm:max-w-md md:max-w-lg mx-auto leading-relaxed px-2"
+                      className="font-sans text-lg sm:text-xl md:text-xl text-white/80 max-w-xs sm:max-w-md md:max-w-lg mx-auto leading-relaxed px-2"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.4, duration: 0.6 }}
