@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
               <br />
               Together
             </h1>
-            <p className="font-sans text-lg md:text-xl text-lightText-secondary mb-8 md:mb-12 max-w-md md:max-w-2xl mx-auto leading-relaxed">
+            <p className="font-sans text-lg md:text-xl text-white/70 mb-8 md:mb-12 max-w-md md:max-w-2xl mx-auto leading-relaxed">
               Collaborative research, innovation, and education in artificial
               intelligence.
             </p>

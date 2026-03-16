@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
               >
                 Advancing{" "}
                 <motion.span
-                  className="text-primary"
+                  className="text-[#85D1F1]"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4, duration: 0.8 }}

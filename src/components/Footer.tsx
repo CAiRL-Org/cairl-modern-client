@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer: React.FC = () => {
   return (
     <footer
-      className="relative text-foreground py-12 overflow-hidden"
+      className="relative text-white py-12 overflow-hidden"
       style={{
         backgroundImage:
           "url('https://res.cloudinary.com/dnyouhvwj/image/upload/v1750176571/footer-bg-img_ogqwyc.png')",
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                   href="https://www.instagram.com/cairl_2025?igsh=MTcyY3cxM285Ymt1OQ=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-foreground"
+                  className="text-gray-300 hover:text-white"
                 >
                   <FaInstagram className="w-5 h-5" />
                 </a>
@@ -41,18 +41,18 @@ const Footer: React.FC = () => {
                   href="https://www.linkedin.com/company/collaborative-ai-research-labs-foundation"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-foreground"
+                  className="text-gray-300 hover:text-white"
                 >
                   <FaLinkedin className="w-5 h-5" />
                 </a>
-                {/* <a href="#" className="text-gray-300 hover:text-foreground">
+                {/* <a href="#" className="text-gray-300 hover:text-white">
                   <FaTwitter className="w-5 h-5" />
                 </a> */}
                 <a
                   href="https://youtube.com/@cairl.2025?si=MJ49FJN09Zi207Os"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-foreground"
+                  className="text-gray-300 hover:text-white"
                 >
                   <FaYoutube className="w-5 h-5" />
                 </a>
@@ -70,37 +70,37 @@ const Footer: React.FC = () => {
                   <li>
                     <Link
                       to="/happenings"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Events</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/happenings"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Happenings</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/happenings#timeline"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Timeline</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/about-us#faqs"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>FAQs</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                 </ul>
@@ -113,37 +113,37 @@ const Footer: React.FC = () => {
                   <li>
                     <Link
                       to="/about-us"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Who We Are</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/about-us#board-members"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Our Team</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/about-us#mission"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Mission & Vision</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/mous"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>MOUs & Partnerships</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                 </ul>
@@ -158,37 +158,37 @@ const Footer: React.FC = () => {
                   <li>
                     <Link
                       to="/services"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Our Services</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/focus-groups"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Focus Groups</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/research-and-innovation"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Research & Innovation</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/resources"
-                      className="text-foreground/80 hover:text-foreground relative group"
+                      className="text-gray-300 hover:text-white relative group"
                     >
                       <span>Resources</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-foreground transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
                 </ul>
@@ -199,19 +199,19 @@ const Footer: React.FC = () => {
                 <h3 className="text-lg font-semibold mb-4">Contact</h3>
                 <div className="space-y-2 text-sm text-gray-300">
                   <p>
-                    <span className="font-semibold text-foreground">
+                    <span className="font-semibold text-white">
                       Phone:
                     </span>{" "}
                     +91 9391335191
                   </p>
                   <p>
-                    <span className="font-semibold text-foreground">
+                    <span className="font-semibold text-white">
                       Email:
                     </span>{" "}
                     info@cairl.org
                   </p>
                   <address>
-                    <span className="font-semibold text-foreground">
+                    <span className="font-semibold text-white">
                       Address:
                     </span>
                     <br />

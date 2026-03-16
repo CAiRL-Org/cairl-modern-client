@@ -40,14 +40,14 @@ const CTA: React.FC = () => {
                         duration: 0.9,
                         ease: "easeInOut",
                       }}
-                      className="text-primary block sm:inline"
+                      className="text-[#85D1F1] block sm:inline"
                     >
                       {" "}
                       Impact
                     </motion.span>{" "}
                     <span className="block sm:inline">with CAiRL?</span>
                   </h2>
-                  <p className="font-sans text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed px-2 sm:px-0">
+                  <p className="font-sans text-lg text-white/70 max-w-2xl mx-auto leading-relaxed px-2 sm:px-0">
                     Join us as a student, researcher, partner, or sponsor in our
                     nonprofit mission to advance AI for social good.
                   </p>
