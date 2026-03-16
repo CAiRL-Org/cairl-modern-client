@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
       {/* Combined Hero and Features Section */}
       <div className="relative w-full pb-12 sm:pb-12 md:pb-10">
         {/* Hero section with Image and Text */}
-        <div className="relative w-full h-full rounded-b-[30px] overflow-hidden shadow-lg">
+        <div className="relative w-full h-full rounded-b-[30px] overflow-hidden shadow-lg bg-black">
           {/* Image Carousel */}
           <Carousel
             className="w-full h-full"
@@ -74,9 +74,9 @@ const Hero: React.FC = () => {
             ]}
             setApi={setCarouselApi}
           >
-            <CarouselContent>
+            <CarouselContent className="-ml-0">
               {carouselData.map((item, index) => (
-                <CarouselItem key={index}>
+                <CarouselItem key={index} className="pl-0">
                   <div className="relative">
                     <div className="w-full h-full overflow-hidden">
                       <motion.img
