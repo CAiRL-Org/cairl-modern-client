@@ -152,7 +152,7 @@ const Hero: React.FC = () => {
 
               {/* Animated Feature Text */}
               <motion.div
-                className="relative h-auto min-h-[80px] sm:min-h-[100px] md:min-h-[120px] overflow-visible py-4"
+                className="relative h-auto min-h-[140px] sm:min-h-[120px] md:min-h-[120px] overflow-visible py-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.6, duration: 0.8 }}

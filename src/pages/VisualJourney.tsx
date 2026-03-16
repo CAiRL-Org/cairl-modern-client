@@ -56,7 +56,7 @@ const VisualJourney = () => {
             >
               Visual Journey
             </motion.h4>
-            <h1 className="text-4xl font-bold text-foreground mb-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
               Awards & Recognitions
             </h1>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
@@ -111,7 +111,7 @@ const VisualJourney = () => {
                 >
                   Winners
                 </motion.h4>
-                <h2 className="text-4xl font-bold text-white">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
                   Hackathon Winners
                 </h2>
               </div>
@@ -214,7 +214,7 @@ const VisualJourney = () => {
                 >
                   Highlights
                 </motion.h4>
-                <h2 className="text-4xl font-bold text-foreground mb-6">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
                   Event Highlights
                 </h2>
 

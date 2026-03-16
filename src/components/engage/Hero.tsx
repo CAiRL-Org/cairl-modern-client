@@ -17,7 +17,7 @@ const Hero = () => {
         >
           Engage With Us
         </motion.h4>
-        <h1 className="text-4xl font-bold text-foreground mb-8 max-w-4xl">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-8 max-w-4xl">
           Join Our Collaborative Ecosystem
         </h1>
         <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
