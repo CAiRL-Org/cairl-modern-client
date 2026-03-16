@@ -57,7 +57,7 @@ const Bootcamps = () => {
           key={`curr-${i}`}
           className={`py-2 ${
             isSelected
-              ? "text-white bg-[#005BA9] rounded-full mx-auto w-8 h-8 flex items-center justify-center"
+              ? "text-white bg-primary rounded-full mx-auto w-8 h-8 flex items-center justify-center"
               : ""
           }`}
           onClick={() => setSelectedDate(date)}

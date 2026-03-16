@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
               >
                 Advancing{" "}
                 <motion.span
-                  className="text-[#85D1F1]"
+                  className="text-primary"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4, duration: 0.8 }}
@@ -140,6 +140,15 @@ const Hero: React.FC = () => {
                   Together
                 </motion.span>
               </motion.h1>
+
+              <motion.p
+                className="font-sans text-base sm:text-lg md:text-xl text-white/70 max-w-md sm:max-w-lg md:max-w-2xl mx-auto leading-relaxed mb-6 sm:mb-8"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.4, duration: 0.8 }}
+              >
+                A Nonprofit Foundation for Collaborative AI Research & Learning
+              </motion.p>
 
               {/* Animated Feature Text */}
               <motion.div
@@ -192,10 +201,10 @@ const Hero: React.FC = () => {
             {carouselData.map((_, index) => (
               <motion.button
                 key={index}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                className={`h-3 w-3 rounded-full transition-all duration-300 ${
                   index === activeIndex
-                    ? "bg-secondary w-8"
-                    : "bg-primary/50 hover:bg-primary/70"
+                    ? "bg-secondary w-10"
+                    : "bg-white/50 hover:bg-white/70"
                 }`}
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}

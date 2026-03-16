@@ -23,6 +23,7 @@ export const aboutUs = {
     {
       title: "Who We Are",
       links: [
+        { name: "Our Journey", href: "/about-us#our-journey" },
         { name: "Our Mission", href: "/about-us#mission" },
         { name: "Our Vision", href: "/about-us#vision" },
         // { name: "Objectives", href: "/about-us#objectives" },

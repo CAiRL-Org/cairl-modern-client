@@ -116,14 +116,13 @@ const Happening = () => {
             >
               Happenings
             </motion.h4>
-            <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
               Happenings at CAiRL
             </h1>
             <p className="text-lg max-w-3xl mx-auto text-muted-foreground">
-              AI is an ever-evolving field, and at CAiRL, we ensure you stay
-              ahead of the curve. Our events, webinars, and visual journeys
-              bring together the brightest minds, groundbreaking innovations,
-              and real-world impact.
+              Stay ahead with CAiRL's events, webinars, and visual journeys
+              bringing together AI's brightest minds and groundbreaking
+              innovations.
             </p>
           </div>
 
@@ -159,7 +158,7 @@ const Happening = () => {
                   </div>
 
                   <div className="p-8 md:col-span-2">
-                    <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                       {p.title}
                     </h2>
                     <p className="text-muted-foreground mb-4">

@@ -114,7 +114,7 @@ const Header: React.FC = () => {
               }`}
               onClick={closeAllDropdowns}
             >
-              Engage with us
+              Engage With Us
             </Link>
           </div>
 

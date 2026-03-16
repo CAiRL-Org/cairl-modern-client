@@ -60,7 +60,7 @@ const Services = () => {
             >
               Our Services
             </motion.h4>
-            <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
               Driving responsible AI transformation through education,
               innovation, and collaboration.
             </h1>
@@ -78,7 +78,7 @@ const Services = () => {
           <section className="space-y-20 mt-24">
             {/* Capacity Building & Knowledge Empowerment */}
             <div id="knowledge-empowerment">
-              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
                 Capacity Building & Knowledge Empowerment
               </h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -120,7 +120,7 @@ const Services = () => {
 
             {/* Innovation & Startup Support */}
             <div id="innovation">
-              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
                 Innovation & Startup Support
               </h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -156,7 +156,7 @@ const Services = () => {
 
             {/* Ecosystem Building & Social Impact */}
             <div id="eco-system">
-              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
                 Ecosystem Building & Social Impact
               </h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">

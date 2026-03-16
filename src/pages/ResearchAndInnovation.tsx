@@ -158,14 +158,12 @@ const ResearchAndInnovation = () => {
             >
               Contributions
             </motion.h4>
-            <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
               Research & Innovation
             </h1>
             <p className="text-lg max-w-3xl mx-auto text-muted-foreground">
-              At CAiRL, we are more than just an AI research hub—we are
-              architects of the AI revolution. Our contributions span
-              cutting-edge research, ecosystem development, mentorship, and
-              AI-driven social impact.
+              CAiRL drives cutting-edge AI research, ecosystem development,
+              mentorship, and AI-driven social impact.
             </p>
           </div>
 
@@ -201,7 +199,7 @@ const ResearchAndInnovation = () => {
                   </div>
 
                   <div className="p-8 md:col-span-2">
-                    <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                       {p.title}
                     </h2>
                     <div className="space-y-6">
@@ -236,15 +234,13 @@ const ResearchAndInnovation = () => {
             variants={fadeInUp}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Why Our Research Matters
             </h2>
             <p className="text-lg mt-4 text-muted-foreground max-w-4xl mx-auto">
-              Our research and innovation initiatives are designed to create a
-              tangible impact. We focus on solving real-world problems,
-              fostering a new generation of AI talent, and building a
-              collaborative ecosystem that accelerates the adoption of ethical
-              and responsible AI across industries.
+              We solve real-world problems, foster AI talent, and build
+              collaborative ecosystems that accelerate ethical AI adoption
+              across industries.
             </p>
           </motion.div>
 

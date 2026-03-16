@@ -52,12 +52,10 @@ const About: React.FC = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground mx-auto leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed"
         >
-          CAiRL is a leading research lab dedicated to advancing AI technologies
-          that benefit society. Our mission is to develop AI-based solutions,
-          entrepreneurial ethics, and responsible AI for everyone. Our team
-          brings together experts from diverse fields to create innovative AI
-          applications that address real-world challenges, enhance user
-          experiences, and promote the responsible use of technology.
+          CAiRL is a nonprofit foundation advancing AI technologies that
+          benefit society. We bring together experts from academia, industry,
+          and government to create innovative, ethical AI solutions that
+          address real-world challenges.
         </motion.p>
 
         <motion.div

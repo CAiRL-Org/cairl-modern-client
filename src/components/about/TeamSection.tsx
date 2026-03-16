@@ -7,7 +7,7 @@ const TeamSection = ({
 }) => {
   return (
     <div className="mb-16">
-      <h2 className="text-3xl font-bold text-foreground mb-12 text-center relative pb-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12 text-center relative pb-8">
         {title}
         {/* Fancy underline */}
         <span className="absolute bottom-0 left-1/2 -translate-x-1/2 flex gap-2">
@@ -17,7 +17,7 @@ const TeamSection = ({
         </span>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 items-stretch justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 items-stretch justify-center">
         {members.map((member, index) => (
           <div
             key={index}
