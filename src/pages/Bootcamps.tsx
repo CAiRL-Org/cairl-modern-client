@@ -173,7 +173,7 @@ const Bootcamps = () => {
           >
             Bootcamps
           </motion.h4>
-          <h1 className="text-4xl font-bold text-foreground mb-4">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
             AI Bootcamps & Workshops
           </h1>
           <div className="flex justify-center gap-4 mt-16 mb-4">

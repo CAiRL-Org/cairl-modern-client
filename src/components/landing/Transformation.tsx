@@ -18,10 +18,9 @@ const Transformation: React.FC = () => {
           </div>
 
           {/* Centered Content - Fully Responsive */}
-          <div className="container mx-auto relative z-10 text-center py-12 px-6 mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-              Driving Responsible AI
-              <span className="block sm:inline"> Transformation</span>
+          <div className="container mx-auto relative z-10 text-center py-12 px-4 sm:px-6 mb-16">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight break-words">
+              Driving Responsible AI Transformation
             </h2>
             <p className="text-lg text-white/90 mx-auto max-w-2xl leading-relaxed">
               Our research focuses on developing AI technologies that are

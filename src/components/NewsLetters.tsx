@@ -210,7 +210,7 @@ const NewsLetters = () => {
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
           {/* Header Section */}
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-primary mb-4 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 tracking-tight">
               Stay Connected
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
