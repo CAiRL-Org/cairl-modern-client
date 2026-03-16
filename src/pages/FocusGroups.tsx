@@ -61,17 +61,15 @@ const FocusGroups = () => {
             >
               Focus Groups
             </motion.h4>
-            <h1 className="text-4xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Driving AI Adoption Through
               <br />
               Collaboration
             </h1>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              At CAiRL, we bring together industry leaders and world-class
-              experts to tackle real-world challenges through targeted,
-              cross-sector collaboration. Our Focus Groups are the heart of our
-              mission to accelerate responsible AI adoption and build a
-              future-ready ecosystem.
+              CAiRL brings together industry leaders and experts to accelerate
+              responsible AI adoption through targeted, cross-sector
+              collaboration.
             </p>
           </section>
 
@@ -82,7 +80,7 @@ const FocusGroups = () => {
           >
             {/* Left Content */}
             <div>
-              <h2 className="text-4xl font-semibold text-foreground mb-4">
+              <h2 className="text-4xl md:text-4xl font-semibold text-foreground mb-4">
                 Enterprise AI Adoption
               </h2>
               <p className="text-muted-foreground mb-6 max-w-xl leading-relaxed">

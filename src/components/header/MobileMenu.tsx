@@ -80,7 +80,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 className="block mt-4 w-full text-center bg-primary text-primary-foreground rounded-md px-6 py-3 text-lg font-semibold hover:bg-primary/90 transition-all shadow-md"
                 onClick={onClose}
               >
-                Engage with us
+                Engage With Us
               </Link>
             </div>
           </div>

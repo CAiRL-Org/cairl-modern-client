@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Hero from "../components/landing/Hero";
 import About from "../components/landing/About";
 import Transformation from "../components/landing/Transformation";
+import Research from "../components/landing/Research";
 import Events from "../components/landing/Events";
 import CTA from "../components/CTA";
 import Contact from "../components/landing/Contact";
@@ -55,6 +56,11 @@ const Landing = () => {
       {/* Transformation Section */}
       <div className="min-h-screen w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-20 bg-secondary flex flex-col justify-center items-center">
         <Transformation />
+      </div>
+
+      {/* Research & Innovation Section */}
+      <div className="w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-20">
+        <Research />
       </div>
 
       {/* Events Section */}

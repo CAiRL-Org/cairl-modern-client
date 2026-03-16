@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
       {/* Combined Hero and Features Section */}
       <div className="relative w-full pb-12 sm:pb-12 md:pb-10">
         {/* Hero section with Image and Text */}
-        <div className="relative w-full h-full rounded-b-[30px] overflow-hidden shadow-lg">
+        <div className="relative w-full h-full rounded-b-[30px] overflow-hidden shadow-lg bg-black">
           {/* Image Carousel */}
           <Carousel
             className="w-full h-full"
@@ -74,9 +74,9 @@ const Hero: React.FC = () => {
             ]}
             setApi={setCarouselApi}
           >
-            <CarouselContent>
+            <CarouselContent className="-ml-0">
               {carouselData.map((item, index) => (
-                <CarouselItem key={index}>
+                <CarouselItem key={index} className="pl-0">
                   <div className="relative">
                     <div className="w-full h-full overflow-hidden">
                       <motion.img
@@ -141,6 +141,15 @@ const Hero: React.FC = () => {
                 </motion.span>
               </motion.h1>
 
+              <motion.p
+                className="font-sans text-base sm:text-lg md:text-xl text-white/70 max-w-md sm:max-w-lg md:max-w-2xl mx-auto leading-relaxed mb-6 sm:mb-8"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.4, duration: 0.8 }}
+              >
+                A Nonprofit Foundation for Collaborative AI Research & Learning
+              </motion.p>
+
               {/* Animated Feature Text */}
               <motion.div
                 className="relative h-auto min-h-[80px] sm:min-h-[100px] md:min-h-[120px] overflow-visible py-4"
@@ -192,10 +201,10 @@ const Hero: React.FC = () => {
             {carouselData.map((_, index) => (
               <motion.button
                 key={index}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                className={`h-3 w-3 rounded-full transition-all duration-300 ${
                   index === activeIndex
-                    ? "bg-secondary w-8"
-                    : "bg-primary/50 hover:bg-primary/70"
+                    ? "bg-secondary w-10"
+                    : "bg-white/50 hover:bg-white/70"
                 }`}
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}

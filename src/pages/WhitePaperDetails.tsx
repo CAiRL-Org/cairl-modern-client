@@ -224,7 +224,7 @@ const WhitePaperDetails = () => {
               </div>
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-background text-foreground rounded-lg font-medium hover:bg-[#004a8a] transition-colors"
+                className="w-full px-6 py-3 bg-background text-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
               >
                 Submit
               </button>

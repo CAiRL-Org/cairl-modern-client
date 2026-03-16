@@ -53,7 +53,7 @@ const Team = () => {
             Leadership
           </motion.h4>
 
-          <h1 className="text-4xl font-bold text-foreground mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Board Members & Management Team
           </h1>
         </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import DropdownButton from "./header/DropdownButton";
 import MobileMenu from "./header/MobileMenu";
+import ThemeToggle from "./ThemeToggle";
 import { navigationData } from "../constants/navigation";
 
 const Header: React.FC = () => {
@@ -103,8 +104,9 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
-          {/* Contact & CTA - Desktop */}
+          {/* Theme Toggle & CTA - Desktop */}
           <div className="hidden lg:flex items-center space-x-4 cursor-pointer">
+            <ThemeToggle />
             <Link
               to="/engage-with-us"
               className={`px-4 py-3 rounded-md font-semibold transition-all duration-300 shadow-lg hover:shadow-xl whitespace-nowrap ${
@@ -114,12 +116,13 @@ const Header: React.FC = () => {
               }`}
               onClick={closeAllDropdowns}
             >
-              Engage with us
+              Engage With Us
             </Link>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="lg:hidden z-40">
+          {/* Mobile: Theme Toggle + Menu button */}
+          <div className="lg:hidden z-40 flex items-center space-x-2">
+            <ThemeToggle />
             <button
               type="button"
               onClick={toggleMobileMenu}
