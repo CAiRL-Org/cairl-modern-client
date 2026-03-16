@@ -65,6 +65,7 @@ const Team = () => {
         >
           <TeamSection
             title=""
+            columns={2}
             members={[
               {
                 name: "Mr. Rammohan Manamasa",
