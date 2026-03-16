@@ -1,10 +1,17 @@
 const TeamSection = ({
   title,
   members,
+  columns = 3,
 }: {
   title: string;
   members: { name: string; role: string; image: string }[];
+  columns?: 2 | 3 | 4;
 }) => {
+  const gridCols = {
+    2: "grid-cols-1 sm:grid-cols-2 max-w-2xl mx-auto",
+    3: "grid-cols-1 sm:grid-cols-2 md:grid-cols-3",
+    4: "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4",
+  };
   return (
     <div className="mb-16">
       <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12 text-center relative pb-8">
@@ -17,7 +24,7 @@ const TeamSection = ({
         </span>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 items-stretch justify-center">
+      <div className={`grid ${gridCols[columns]} gap-8 px-4 items-stretch justify-center`}>
         {members.map((member, index) => (
           <div
             key={index}
