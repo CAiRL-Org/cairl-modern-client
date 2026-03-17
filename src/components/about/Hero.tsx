@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative bg-transparent overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="relative w-full h-full">
-        <div className="absolute inset-0 bg-gradient-to-r from-background/70 to-background/50 z-10 rounded-b-[30px] shadow-xl" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 z-10 rounded-b-[30px] shadow-xl" />
         <img
           src="https://res.cloudinary.com/dnyouhvwj/image/upload/v1750244957/about_img_1_b5biqp.png"
           alt="About CAiRL"
@@ -24,15 +24,15 @@ const Hero = () => {
               duration: 0.5,
               ease: "easeInOut",
             }}
-            className="inline-block px-6 py-3 rounded-full bg-background/70 text-primary text-sm font-medium mb-6 border border-primary/20"
+            className="inline-block px-6 py-3 rounded-full bg-black/50 text-[#85D1F1] text-sm font-medium mb-6 border border-white/20"
           >
             About Us
           </motion.h4>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             India's Collaborative AI Ecosystem for Social Good, Research &
             Innovation
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-white/70 max-w-3xl mx-auto">
             Advancing AI technologies that benefit society through research,
             innovation, and ethical applications.
           </p>
