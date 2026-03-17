@@ -30,7 +30,7 @@ const CTA: React.FC = () => {
             <div className="container mx-auto max-w-6xl relative z-10">
               <div className="text-center">
                 <div className="mb-10">
-                  <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight leading-tight">
+                  <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight leading-tight">
                     Ready to Make an
                     <motion.span
                       initial={{ opacity: 0.5, y: 50 }}

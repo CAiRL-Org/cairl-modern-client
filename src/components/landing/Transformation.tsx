@@ -19,7 +19,7 @@ const Transformation: React.FC = () => {
 
           {/* Centered Content - Fully Responsive */}
           <div className="container mx-auto relative z-10 text-center py-12 px-4 sm:px-6 mb-16">
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight break-words">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight break-words">
               Driving Responsible AI Transformation
             </h2>
             <p className="text-lg text-white/90 mx-auto max-w-2xl leading-relaxed">

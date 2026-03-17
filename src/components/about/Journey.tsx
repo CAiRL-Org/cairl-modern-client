@@ -15,7 +15,7 @@ const Journey = () => {
       >
         Our Journey
       </motion.h4>
-      <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8 w-full md:w-[700px]">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-8 w-full md:w-[700px]">
         Bridging Innovation and Impact
       </h1>
       <p className="about-text text-justify w-full text-muted-foreground">

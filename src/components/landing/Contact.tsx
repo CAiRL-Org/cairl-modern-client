@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
             Contact Us
           </motion.h4>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
             Let's Connect
           </h2>
 
