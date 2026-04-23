@@ -1,5 +1,6 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -33,6 +34,7 @@ const Footer: React.FC = () => {
                   href="https://www.instagram.com/cairl_2025?igsh=MTcyY3cxM285Ymt1OQ=="
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Instagram"
                   className="text-gray-300 hover:text-white"
                 >
                   <FaInstagram className="w-5 h-5" />
@@ -41,17 +43,34 @@ const Footer: React.FC = () => {
                   href="https://www.linkedin.com/company/collaborative-ai-research-labs-foundation"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
                   className="text-gray-300 hover:text-white"
                 >
                   <FaLinkedin className="w-5 h-5" />
                 </a>
-                {/* <a href="#" className="text-gray-300 hover:text-white">
-                  <FaTwitter className="w-5 h-5" />
-                </a> */}
+                <a
+                  href="https://www.facebook.com/CollaborativeAIResearchLabsFoundation/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="text-gray-300 hover:text-white"
+                >
+                  <FaFacebookF className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://x.com/CAiRL_Official"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X (Twitter)"
+                  className="text-gray-300 hover:text-white"
+                >
+                  <FaXTwitter className="w-5 h-5" />
+                </a>
                 <a
                   href="https://youtube.com/@cairl.2025?si=MJ49FJN09Zi207Os"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="YouTube"
                   className="text-gray-300 hover:text-white"
                 >
                   <FaYoutube className="w-5 h-5" />
