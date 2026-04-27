@@ -173,7 +173,7 @@ const Team = () => {
               },
               {
                 name: "Dr. Suraj Bhansali",
-                role: "Experienced Leader at GCC & CRO",
+                role: "GCC Leader at Certara",
                 image:
                   "https://res.cloudinary.com/dnyouhvwj/image/upload/v1752090501/Dr._Suraj_Bhansali-whitebg_lqv3l8.png",
               },
