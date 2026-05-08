@@ -207,8 +207,7 @@ const Team = () => {
               {
                 name: "Mr. Vedavalli Venkata Sai Teja",
                 role: "R&D Alliances Engagement, Nordic Region",
-                image:
-                  "https://ui-avatars.com/api/?name=Vedavalli+Sai+Teja&size=512&background=f0f4ff&color=2563eb&bold=true&format=png",
+                image: "/Mr_VV_Sai_Teja.jpeg",
               },
             ]}
           />
