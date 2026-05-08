@@ -204,6 +204,12 @@ const Team = () => {
                 image:
                   "https://res.cloudinary.com/dnyouhvwj/image/upload/v1752090499/Dr._Meenakshi_S-whitebg_tlcjyl.png",
               },
+              {
+                name: "Mr. Vedavalli Venkata Sai Teja",
+                role: "R&D Alliances Engagement, Nordic Region",
+                image:
+                  "https://ui-avatars.com/api/?name=Vedavalli+Sai+Teja&size=512&background=f0f4ff&color=2563eb&bold=true&format=png",
+              },
             ]}
           />
         </div>
