@@ -173,7 +173,7 @@ const Team = () => {
               },
               {
                 name: "Dr. Suraj Bhansali",
-                role: "Experienced Leader at GCC & CRO",
+                role: "GCC Leader at Certara",
                 image:
                   "https://res.cloudinary.com/dnyouhvwj/image/upload/v1752090501/Dr._Suraj_Bhansali-whitebg_lqv3l8.png",
               },
@@ -203,6 +203,11 @@ const Team = () => {
                 role: "AUVNLP, Product Manager",
                 image:
                   "https://res.cloudinary.com/dnyouhvwj/image/upload/v1752090499/Dr._Meenakshi_S-whitebg_tlcjyl.png",
+              },
+              {
+                name: "Mr. Vedavalli Venkata Sai Teja",
+                role: "R&D Alliances Engagement, Nordic Region",
+                image: "/Mr_VV_Sai_Teja.jpeg",
               },
             ]}
           />
